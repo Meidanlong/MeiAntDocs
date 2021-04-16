@@ -1,13 +1,13 @@
 module.exports = {
   theme:"antdocs",
-  title: "VuePress-Creator",
-  description: "A lightweight creator for VuePress project.",
+  title: "Meiracle",
+  description: "This is not a blog",
   base: "/",
   head: [
     ["link",{ rel: "icon",href: "/assets/me.jpg" }]
   ],
   markdown: {
-    lineNumbers: false,
+    lineNumbers: true,
   },
   themeConfig: {
     smoothScroll: true,

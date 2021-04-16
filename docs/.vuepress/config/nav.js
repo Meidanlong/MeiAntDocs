@@ -11,7 +11,7 @@ module.exports = [
   // },
   // Nav 3
   {
-    text: "Sprica",
+    text: "SPRICA",
     link: "/sprica/"
   },
   {
