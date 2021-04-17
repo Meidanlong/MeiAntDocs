@@ -1,7 +1,7 @@
 module.exports = {
   theme:"antdocs",
   title: "Meiracle",
-  description: "This is not a blog",
+  description: "你能达到什么程度，取决于内心有多渴望",
   base: "/",
   head: [
     ["link",{ rel: "icon",href: "/assets/me.jpg" }]

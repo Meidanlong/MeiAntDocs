@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.11",
+    "echarts": "^5.1.0",
+    "vue-echarts": "^6.0.0-rc.4",
     "vuepress-theme-antdocs": "^1.2.2"
   },
   "creator": ">=2.0.0"
