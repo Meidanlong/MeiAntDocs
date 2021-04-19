@@ -26,3 +26,5 @@ actionLink: /blog/
   </div>
   
 </div>
+
+<home/>
