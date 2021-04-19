@@ -1,6 +1,8 @@
 module.exports = {
   // "/category/": require("../../category/sidebar_contents"),
-  "/sprica/": require("../../sprica/sprica-sidebar"),
-  "/blog/": require("../../blog/blog-sidebar"),
-  "/qa/": require("../../qa/qa-sidebar"),
+  "/sprica/": require("../../sprica/sidebar"),
+  "/language/": require("../../language/sidebar"),
+  "/backend/": require("../../backend/sidebar"),
+  "/frontend/": require("../../frontend/sidebar"),
+  "/qa/": require("../../qa/sidebar"),
 };
