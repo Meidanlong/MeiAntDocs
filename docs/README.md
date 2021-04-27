@@ -1,24 +1,16 @@
 ---
 home: true
 heroImage: /assets/me.jpg
-navbar: false
-search: true
-
-
-footer: Written by Meidanlong | <a href="http://beian.miit.gov.cn/" target="_blank">自行填写ICP备案号</a> 
+heroText: 梅丹隆
+tagline: 你能达到什么程度，取决于内心有多渴望
+// features:
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: Vue驱动
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+- title: 高性能
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+// footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-<div class="features" >
-  <div 
-  style="padding: 0;
-        margin:0;
-        width: 100%;
-        text-align: center" 
-  >
-   <h1
-   style="margin-bottom: 2px">积跬步&nbsp;&nbsp;至千里</h1>
-  </div>
-  
-</div>
 
-<home/>
