@@ -1,6 +1,6 @@
 module.exports = {
   theme:"antdocs",
-  title: "Meiracle",
+  title: "Mei",
   description: "你能达到什么程度，取决于内心有多渴望",
   base: "/",
   head: [
@@ -29,4 +29,8 @@ module.exports = {
     repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
   },
+  algolia: {
+    applicationID:'9PW9QDHYJ2',
+    apiKey: 'b1612e42b87025f9813a09e2a82a9aec'
+  }
 };

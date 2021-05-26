@@ -4,19 +4,19 @@ module.exports = [
     link: "/sprica/"
   },
   {
-    text: "语言",
-    link: "/language/"
+    text: "连环call",
+    link: "/call/"
   },
   {
-    text: "后端",
-    link: "/backend/"
+    text: "积累博客",
+    link: "/blog/"
   },
   {
-    text: "前端",
-    link: "/frontend/"
+    text: "学习笔记",
+    link: "/note/"
   },
   {
-    text: "问答",
+    text: "常见问答",
     link: "/qa/"
   },
 ];
