@@ -13,7 +13,21 @@ module.exports = [
   },
   {
     text: "学习笔记",
-    link: "/note/"
+    items:[
+      {
+        text:'语言',
+        items:[
+          {text:'Java',link:'/note/java/'},
+          {text:'Python',link:'/note/python/'},
+        ]
+      },
+      {
+        text:'微信系',
+        items:[
+          {text:'Cocos Creator入门',link:'/note/cocos/'},
+        ]
+      },
+    ]
   },
   {
     text: "常见问答",
