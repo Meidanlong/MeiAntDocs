@@ -17,14 +17,14 @@ module.exports = [
       {
         text:'语言',
         items:[
-          {text:'Java',link:'/note/java/'},
-          {text:'Python',link:'/note/python/'},
+          {text:'Java',link:'/note/language/java/base/'},
+          {text:'Python',link:'/note/language/python/'},
         ]
       },
       {
         text:'微信系',
         items:[
-          {text:'Cocos Creator入门',link:'/note/cocos/'},
+          {text:'Cocos Creator入门',link:'/note/applet/cocos/'},
         ]
       },
     ]

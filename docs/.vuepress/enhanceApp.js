@@ -1,6 +1,9 @@
 
+export default ({ 
+    Vue, // VuePress 正在使用的 Vue 构造函数
+    router // 当前应用的路由实例
+}) => {
 
-export default ({ router }) => {
     /**
      * 路由切换事件处理
      */
