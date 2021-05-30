@@ -24,6 +24,8 @@ module.exports = [
       {
         text:'微信系',
         items:[
+          {text:'微信小程序开发',link:'/note/applet/wechat/'},
+          {text:'微信小游戏开发',link:'/note/applet/wxgame/'},
           {text:'Cocos Creator入门',link:'/note/applet/cocos/'},
         ]
       },
@@ -31,6 +33,6 @@ module.exports = [
   },
   {
     text: "常见问答",
-    link: "/qa/"
+    link: "/problem/"
   },
 ];

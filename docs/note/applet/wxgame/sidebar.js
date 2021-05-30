@@ -1,7 +1,7 @@
 const root = '../../../';
-const path = '/note/applet/cocos/';
+const path = '/note/applet/wxgame/';
 let section=[
-	"getting-start"
+	"1_wxgame"
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'

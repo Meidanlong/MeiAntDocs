@@ -9,11 +9,14 @@ module.exports = {
   // blog
   "/blog/": require("../../blog/sidebar"),
 
-  // note
+  // note-language
   "/note/language/java/base/": require("../../note/language/java/base/sidebar"),
   "/note/language/python/": require("../../note/language/python/sidebar"),
+  // note-wx
+  "/note/applet/wechat/": require("../../note/applet/wechat/sidebar"),
+  "/note/applet/wxgame/": require("../../note/applet/wxgame/sidebar"),
   "/note/applet/cocos/": require("../../note/applet/cocos/sidebar"),
 
-  // qa
-  "/qa/": require("../../qa/sidebar"),
+  // problem
+  "/problem/": require("../../problem/sidebar"),
 };

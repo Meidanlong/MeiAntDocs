@@ -1,7 +1,12 @@
 const root = '../../../';
-const path = '/note/applet/cocos/';
+const path = '/note/applet/wechat/';
 let section=[
-	"getting-start"
+	"1_wx",
+	"2_wx",
+	"3_wx",
+	"4_wx",
+	"5_wx",
+	"6_wx"
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'
