@@ -1,7 +1,9 @@
-const url = '/note/language/java/base/';
+const url = '/problem/backend/docker/';
 let section=[
-	"java1",
-	"java2"
+	"1_docker",
+	"2_docker",
+	"50_docker",
+	"51_docker"
 ];
 
 /**
@@ -17,6 +19,9 @@ const path = () => {
 	}
 	if(folderNum === 5){
 		return '../../../' + popSbPath;
+	}
+	if(folderNum === 4){
+		return '../../' + popSbPath;
 	}
 }
 

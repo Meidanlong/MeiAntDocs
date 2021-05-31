@@ -22,6 +22,17 @@ module.exports = [
         ]
       },
       {
+        text:'后端',
+        items:[
+          {text:'机器学习',link:'/note/backend/machinelearning/'},
+          {text:'Python分布式爬虫必学框架Scrapy打造搜索引擎',link:'/note/backend/scrapy/'},
+          {text:'Spring源码深度解析（第2版）',link:'/note/backend/spring/shendujiexi/'},
+          {text:'springboot2',link:'/note/backend/spring/springboot2/'},
+          {text:'springcloud',link:'/note/backend/spring/springcloud/'},
+          {text:'webflux',link:'/note/backend/spring/webflux/'},
+        ]
+      },
+      {
         text:'微信系',
         items:[
           {text:'微信小程序开发',link:'/note/applet/wechat/'},

@@ -1,9 +1,11 @@
 const root = '../../../../';
-const path = '/note/backend/spring/shendujiexi/';
+const path = '/note/backend/spring/springcloud/';
 let section=[
-	"1_spring",
-	"2_spring",
-	"11_spring"
+	"1_springcloud",
+	"2_springcloud",
+	"3_springcloud",
+	"4_springcloud",
+	"5_springcloud"
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'

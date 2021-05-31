@@ -1,7 +1,9 @@
-const url = '/note/language/java/base/';
+const url = '/note/language/javascript/';
 let section=[
-	"java1",
-	"java2"
+	"1_js",
+	"2_js",
+	"3_js",
+	"4_js",
 ];
 
 /**

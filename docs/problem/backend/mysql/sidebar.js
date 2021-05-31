@@ -1,7 +1,10 @@
-const url = '/note/language/java/base/';
+const url = '/problem/backend/mysql/';
 let section=[
-	"java1",
-	"java2"
+	"1_mysql",
+	"2_mysql",
+	"3_mysql",
+	"4_mysql",
+	"5_mysql"
 ];
 
 /**
@@ -17,6 +20,9 @@ const path = () => {
 	}
 	if(folderNum === 5){
 		return '../../../' + popSbPath;
+	}
+	if(folderNum === 4){
+		return '../../' + popSbPath;
 	}
 }
 

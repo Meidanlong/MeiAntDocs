@@ -1,9 +1,10 @@
-const root = '../../../../';
-const path = '/note/backend/spring/shendujiexi/';
+const root = '../../../';
+const path = '/note/frontend/uniapp/';
 let section=[
-	"1_spring",
-	"2_spring",
-	"11_spring"
+	"10_uniapp",
+	"11_uniapp",
+	"12_uniapp",
+	"100_uniapp",
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'

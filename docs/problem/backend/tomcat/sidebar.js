@@ -1,7 +1,8 @@
-const url = '/note/language/java/base/';
+const url = '/problem/backend/tomcat/';
 let section=[
-	"java1",
-	"java2"
+	"1_tomcat",
+	"2_tomcat",
+	"3_tomcat",
 ];
 
 /**
@@ -17,6 +18,9 @@ const path = () => {
 	}
 	if(folderNum === 5){
 		return '../../../' + popSbPath;
+	}
+	if(folderNum === 4){
+		return '../../' + popSbPath;
 	}
 }
 

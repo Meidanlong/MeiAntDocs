@@ -1,7 +1,7 @@
-const url = '/note/language/java/base/';
+const url = '/problem/backend/mvn/';
 let section=[
-	"java1",
-	"java2"
+	"1_mvn",
+	"999_mvn"
 ];
 
 /**
@@ -17,6 +17,9 @@ const path = () => {
 	}
 	if(folderNum === 5){
 		return '../../../' + popSbPath;
+	}
+	if(folderNum === 4){
+		return '../../' + popSbPath;
 	}
 }
 

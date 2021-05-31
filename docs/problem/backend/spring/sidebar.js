@@ -1,7 +1,10 @@
-const url = '/note/language/java/base/';
+const url = '/problem/backend/spring/';
 let section=[
-	"java1",
-	"java2"
+	"1_spring",
+	"2_spring",
+	"3_spring",
+	"4_spring",
+	"5_spring"
 ];
 
 /**
@@ -17,6 +20,9 @@ const path = () => {
 	}
 	if(folderNum === 5){
 		return '../../../' + popSbPath;
+	}
+	if(folderNum === 4){
+		return '../../' + popSbPath;
 	}
 }
 

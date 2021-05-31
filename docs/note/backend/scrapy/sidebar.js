@@ -1,3 +1,4 @@
+const root = '../../../';
 const path = '/note/backend/scrapy/';
 let section=[
 	"1_scrapy",
@@ -6,13 +7,6 @@ let section=[
 	"4_scrapy"
 ];
 
-populateSidebar = (path, section) => {
-	for(let i=0; i < section.length; i++){
-		section[i] = path + section[i];
-		console.log(section[i])
-	}
-	section.unshift("");
-	return section;
-}
-
+const popSbPath = '.vuepress/config/populateSidebar'
+let populateSidebar = require(root + popSbPath);
 module.exports = populateSidebar(path, section);

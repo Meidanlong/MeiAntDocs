@@ -1,4 +1,5 @@
-const path = '/note/backend/machineleaning/';
+const root = '../../../';
+const path = '/note/backend/machinelearning/';
 let section=[
 	"1_ml",
 	"2_ml",
@@ -13,13 +14,6 @@ let section=[
 	"11_ml"
 ];
 
-populateSidebar = (path, section) => {
-	for(let i=0; i < section.length; i++){
-		section[i] = path + section[i];
-		console.log(section[i])
-	}
-	section.unshift("");
-	return section;
-}
-
+const popSbPath = '.vuepress/config/populateSidebar'
+let populateSidebar = require(root + popSbPath);
 module.exports = populateSidebar(path, section);

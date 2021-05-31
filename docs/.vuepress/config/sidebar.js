@@ -16,6 +16,13 @@ module.exports = {
   "/note/applet/wechat/": require("../../note/applet/wechat/sidebar"),
   "/note/applet/wxgame/": require("../../note/applet/wxgame/sidebar"),
   "/note/applet/cocos/": require("../../note/applet/cocos/sidebar"),
+  // note-backend
+  "/note/backend/machinelearning/": require("../../note/backend/machinelearning/sidebar"),
+  "/note/backend/scrapy/": require("../../note/backend/scrapy/sidebar"),
+  "/note/backend/spring/shendujiexi/": require("../../note/backend/spring/shendujiexi/sidebar"),
+  "/note/backend/spring/springboot2/": require("../../note/backend/spring/springboot2/sidebar"),
+  "/note/backend/spring/springcloud/": require("../../note/backend/spring/springcloud/sidebar"),
+  "/note/backend/spring/webflux/": require("../../note/backend/spring/webflux/sidebar"),
 
   // problem
   "/problem/": require("../../problem/sidebar"),

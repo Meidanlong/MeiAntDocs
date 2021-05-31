@@ -1,7 +1,7 @@
-const url = '/note/language/java/base/';
+const url = '/problem/backend/gradle/';
 let section=[
-	"java1",
-	"java2"
+	"1_gradle",
+	"2_gradle"
 ];
 
 /**
@@ -17,6 +17,9 @@ const path = () => {
 	}
 	if(folderNum === 5){
 		return '../../../' + popSbPath;
+	}
+	if(folderNum === 4){
+		return '../../' + popSbPath;
 	}
 }
 
