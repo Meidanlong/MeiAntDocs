@@ -9,27 +9,59 @@ module.exports = [
   },
   {
     text: "积累博客",
-    link: "/blog/"
+    items:[
+      {
+        text:'语言-JAVA',
+        items:[
+          {text:'Jvm',link:'/blog/language/java/jvm/'},
+        ]
+      }
+    ]
   },
   {
     text: "学习笔记",
     items:[
-      {
-        text:'语言',
+      /*{
+        text:'语言-JAVA',
         items:[
           {text:'Java',link:'/note/language/java/base/'},
+          {text:'Jvm',link:'/note/language/java/jvm/'},
+        ]
+      },*/
+      {
+        text:'语言-PYTHON',
+        items:[
           {text:'Python',link:'/note/language/python/'},
         ]
       },
       {
-        text:'后端',
+        text:'语言-JAVASCRIPT',
         items:[
-          {text:'机器学习',link:'/note/backend/machinelearning/'},
-          {text:'Python分布式爬虫必学框架Scrapy打造搜索引擎',link:'/note/backend/scrapy/'},
-          {text:'Spring源码深度解析（第2版）',link:'/note/backend/spring/shendujiexi/'},
+          {text:'Javascript',link:'/note/language/javascript/'},
+        ]
+      },
+      {
+        text:'后端-SPRING',
+        items:[
           {text:'springboot2',link:'/note/backend/spring/springboot2/'},
           {text:'springcloud',link:'/note/backend/spring/springcloud/'},
           {text:'webflux',link:'/note/backend/spring/webflux/'},
+        ]
+      },
+      {
+        text:'后端-其他',
+        items:[
+          {text:'机器学习',link:'/note/backend/machinelearning/'},
+          {text:'Python分布式爬虫必学框架Scrapy打造搜索引擎',link:'/note/backend/scrapy/'},
+        ]
+      },
+      {
+        text:'前端-框架',
+        items:[
+          {text:'React',link:'/note/frontend/react/'},
+          {text:'Vue',link:'/note/frontend/vue/'},
+          {text:'nextjs',link:'/note/frontend/nextjs/'},
+          {text:'uniapp',link:'/note/frontend/uniapp/'},
         ]
       },
       {
@@ -44,6 +76,62 @@ module.exports = [
   },
   {
     text: "常见问答",
-    link: "/problem/"
+    items:[
+      {
+        text:'后端',
+        items:[
+          {text:'Docker',link:'/problem/backend/docker/'},
+          {text:'Gradle',link:'/problem/backend/gradle/'},
+          {text:'Mvn',link:'/problem/backend/mvn/'},
+          {text:'Mysql',link:'/problem/backend/mysql/'},
+          {text:'Scrapy',link:'/problem/backend/scrapy/'},
+          {text:'Spring',link:'/problem/backend/spring/'},
+          {text:'Tomcat',link:'/problem/backend/tomcat/'},
+        ]
+      },
+      {
+        text:'前端',
+        items:[
+          {text:'Css',link:'/problem/frontend/css/'},
+          {text:'React',link:'/problem/frontend/react/'},
+          {text:'Vue',link:'/problem/frontend/vue/'},
+        ]
+      },
+      {
+        text:'APP',
+        link: "/problem/app/",
+      },
+      {
+        text:'语言',
+        items:[
+          {text:'Java',link:'/problem/language/java/'},
+          {text:'Python',link:'/problem/language/python/'},
+        ]
+      },
+      {
+        text:'操作系统',
+        items:[
+          {text:'Linux',link:'problem/systems/linux/'},
+          {text:'Windows',link:'problem/systems/windows/'},
+        ]
+      },
+      {
+        text:'工具集-IDE',
+        items:[
+          {text:'Idea',link:'/problem/tools/ide/idea/'},
+          {text:'Sublime',link:'/problem/tools/ide/sublime/'},
+          {text:'Vscode',link:'/problem/tools/ide/vscode/'},
+          {text:'Wxtool',link:'/problem/tools/ide/wxtool/'},
+        ]
+      },
+      {
+        text:'工具集-其他',
+        items:[
+          {text:'Chrome',link:'/problem/tools/chrome/'},
+          {text:'Crt',link:'/problem/tools/crt/'},
+          {text:'Git',link:'/problem/tools/git/'},
+        ]
+      },
+    ]
   },
 ];

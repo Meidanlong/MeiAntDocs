@@ -1,7 +1,9 @@
-const url = '/note/language/java/jvm/';
+const url = '/problem/frontend/vue/';
 let section=[
-	"1_jvm",
-	"2_jvm"
+	"1_vue",
+	"2_vue",
+	"3_vue",
+	"999_vue"
 ];
 
 /**
@@ -12,12 +14,11 @@ const path = () => {
 	const popSbPath = '.vuepress/config/populateSidebar'
 	let folders = url.split("/");
 	let folderNum = folders.length;
-	if(folderNum === 6){
-		return '../../../../' + popSbPath;
+	let root = '';
+	for(let i=0; i<folderNum-2; i++){
+		root = root + "../"
 	}
-	if(folderNum === 5){
-		return '../../../' + popSbPath;
-	}
+	return root + popSbPath;
 }
 
 let populateSidebar = require(path());

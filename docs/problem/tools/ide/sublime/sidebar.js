@@ -1,7 +1,9 @@
-const url = '/problem/backend/gradle/';
+const url = '/problem/tools/ide/sublime/';
 let section=[
-	"1_gradle",
-	"2_gradle"
+	"1_sublime",
+	"2_sublime",
+	"3_sublime",
+	"4_sublime"
 ];
 
 /**

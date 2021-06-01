@@ -1,7 +1,8 @@
-const url = '/problem/backend/gradle/';
+const url = '/problem/tools/ide/idea/';
 let section=[
-	"1_gradle",
-	"2_gradle"
+	"1_idea",
+	"2_idea",
+	"3_idea"
 ];
 
 /**

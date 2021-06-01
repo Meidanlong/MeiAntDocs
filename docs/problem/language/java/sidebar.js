@@ -1,7 +1,8 @@
-const url = '/problem/backend/gradle/';
+const url = '/problem/language/java/';
 let section=[
-	"1_gradle",
-	"2_gradle"
+	"1_java",
+	"2_java",
+	"999_java"
 ];
 
 /**

@@ -1,6 +1,6 @@
-const url = '/problem/applet/wxtool';
+const url = '/problem/tools/ide/wxtool/';
 let section=[
-	"1_app"
+	"1_wxtool"
 ];
 
 /**
@@ -11,15 +11,11 @@ const path = () => {
 	const popSbPath = '.vuepress/config/populateSidebar'
 	let folders = url.split("/");
 	let folderNum = folders.length;
-	if(folderNum === 6){
-		return '../../../../' + popSbPath;
+	let root = '';
+	for(let i=0; i<folderNum-2; i++){
+		root = root + "../"
 	}
-	if(folderNum === 5){
-		return '../../../' + popSbPath;
-	}
-	if(folderNum === 4){
-		return '../../' + popSbPath;
-	}
+	return root + popSbPath;
 }
 
 let populateSidebar = require(path());
