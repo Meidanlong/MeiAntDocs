@@ -1,11 +1,8 @@
 const root = '../../../../';
-const path = '/note/backend/spring/springcloud/';
+const path = '/note/backend/spring/springcloudalibaba/';
 let section=[
-	"1_springcloud",
-	"2_springcloud",
-	"3_springcloud",
-	"4_springcloud",
-	"5_springcloud"
+	"jwt",
+	"wxlogin"
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'
