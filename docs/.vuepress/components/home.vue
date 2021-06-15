@@ -16,7 +16,7 @@
 
 <style>
 	
-	.home-base: {
+	.home-base{
 		padding: 0;
 		margin:0;
 		width: 100%;
