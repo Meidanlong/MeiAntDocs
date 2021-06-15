@@ -9,17 +9,20 @@ npm run build
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+#创建.nojekyll 防止Github Pages build错误
+touch .nojekyll
 
+# 发布到域名
+echo 'www.meidanlong.com' > CNAME
+
+echo "发布到静态页面托管网站"
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# gitee
+git push -f "git@gitee.com:meidanlong/blog.git" master:gh-pages
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-cd -
+# github
+git push -f "git@github.com:Meidanlong/meidanlong.github.io.git" master
