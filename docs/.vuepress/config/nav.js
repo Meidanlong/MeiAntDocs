@@ -46,7 +46,7 @@ module.exports = [
           {text:'springboot2',link:'/note/backend/spring/springboot2/'},
           {text:'springcloud',link:'/note/backend/spring/springcloud/'},
           {text:'webflux',link:'/note/backend/spring/webflux/'},
-          {text:'Spring Cloud Alibaba微服务从入门到进阶',link:'/note/backend/spring/springcloudalibaba/'},
+          {text:'Spring Cloud Alibaba微服务从入门到进阶',link:'/note/backend/spring/SpringCloudAlibaba微服务从入门到进阶/'},
         ]
       },
       {

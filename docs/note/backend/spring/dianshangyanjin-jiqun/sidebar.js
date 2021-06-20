@@ -1,8 +1,11 @@
 const root = '../../../../';
-const path = '/note/backend/spring/springcloudalibaba/';
+const path = '/note/backend/spring/SpringCloudAlibaba微服务从入门到进阶/';
 let section=[
 	"jwt",
-	"wxlogin"
+	"wxlogin",
+	"AOP授权",
+	"Feign传递token",
+	"AOP登陆检查"
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'

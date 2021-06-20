@@ -21,7 +21,7 @@ module.exports = {
   "/note/backend/spring/springboot2/": require("../../note/backend/spring/springboot2/sidebar"),
   "/note/backend/spring/springcloud/": require("../../note/backend/spring/springcloud/sidebar"),
   "/note/backend/spring/webflux/": require("../../note/backend/spring/webflux/sidebar"),
-  "/note/backend/spring/springcloudalibaba/": require("../../note/backend/spring/springcloudalibaba/sidebar"),
+  "/note/backend/spring/SpringCloudAlibaba微服务从入门到进阶/": require("../../note/backend/spring/springcloudalibaba-weifuwucongrumendaojinjie/sidebar"),
   // note-frontend
   "/note/frontend/nextjs/": require("../../note/frontend/nextjs/sidebar"),
   "/note/frontend/react/": require("../../note/frontend/react/sidebar"),
