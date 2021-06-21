@@ -5,10 +5,12 @@
 一、有状态
 
 [![RA1hm8.md.png](https://z3.ax1x.com/2021/06/21/RA1hm8.md.png)](https://imgtu.com/i/RA1hm8)
+
 服务器维护Session Store（Redis），记录用户登陆状态
 
 二、无状态
 [![RAG2lR.md.jpg](https://z3.ax1x.com/2021/06/21/RAG2lR.md.jpg)](https://imgtu.com/i/RAG2lR)
+
 1. 所有微服务依赖Session Store。对于Session Store的宕机、迁移和性能瓶颈
 2. 用户携带token信息，客户端临时存储token，服务器只进行token的解密和校验
 
@@ -25,11 +27,13 @@
 
 ### 三、网关认证授权，内部裸奔
 [![RAYGxs.md.jpg](https://z3.ax1x.com/2021/06/21/RAYGxs.md.jpg)](https://imgtu.com/i/RAYGxs)
+
 - 网关负责token的解密和校验
 - 一旦用户解析成功，则其他微服务都携带用户信息，不再校验
 
 ### 四、内部裸奔改进
 [![RAtSzj.md.jpg](https://z3.ax1x.com/2021/06/21/RAtSzj.md.jpg)](https://imgtu.com/i/RAtSzj)
+
 1. 添加认证授权中心，负责认证、授权、颁发token
 2. 用户携带token，网关透传token给各微服务。
 3. 各微服务解密token，校验token是否合法。并解析token，获取用户信息

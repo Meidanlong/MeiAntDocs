@@ -1,12 +1,12 @@
 const root = '../../../../';
 const path = '/note/backend/spring/springcloudalibaba-weifuwucongrumendaojinjie/';
 let section=[
-	"认证授权",
+	"renzhengshouquan",
 	"jwt",
-	"wxlogin",
-	"AOP授权",
-	"Feign传递token",
-	"AOP登陆检查"
+	"xiaochengxudenglu",
+	"AOPshouquan",
+	"Feignchuanditoken",
+	"AOPdenglujiancha"
 ];
 
 const popSbPath = '.vuepress/config/populateSidebar'
