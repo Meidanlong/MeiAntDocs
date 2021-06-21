@@ -1,6 +1,7 @@
 const root = '../../../../';
 const path = '/note/backend/spring/springcloudalibaba-weifuwucongrumendaojinjie/';
 let section=[
+	"认证授权",
 	"jwt",
 	"wxlogin",
 	"AOP授权",
