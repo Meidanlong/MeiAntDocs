@@ -1,5 +1,10 @@
 #!/usr/bin/env sh
 
+# 更新git
+git add .
+git commit -m 'deploy'
+git push
+
 # abort on errors
 set -e
 
