@@ -4,7 +4,8 @@ let section=[
 	"2_mysql",
 	"3_mysql",
 	"4_mysql",
-	"5_mysql"
+	"5_mysql",
+	"6_mysql"
 ];
 
 /**
