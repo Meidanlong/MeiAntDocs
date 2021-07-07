@@ -29,5 +29,7 @@ docker ps -a
 ## 通过容器id启动
 ```shell
 docker start ${container_id}
+
+docker update --restart=always {containerId}
 ```
 <comment/>

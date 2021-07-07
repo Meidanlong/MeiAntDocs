@@ -8,6 +8,8 @@ module.exports = {
 
   // blog
   "/blog/language/java/jvm/": require("../../blog/language/java/jvm/sidebar"),
+  // blog-system
+  "/blog/systems/docker/": require("../../blog/systems/docker/sidebar"),
 
   // note-wx
   "/note/applet/wechat/": require("../../note/applet/wechat/sidebar"),
