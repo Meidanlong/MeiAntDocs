@@ -1,10 +1,14 @@
 const url = '/blog/systems/docker/';
 let section=[
+	"rule",
 	"docker",
 	"mysql",
 	"nacos",
 	"nexus",
-	"mongodb"
+	"mongodb",
+	"yapi",
+	"redis",
+	"es"
 ];
 
 /**
