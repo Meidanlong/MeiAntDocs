@@ -1,3 +1,5 @@
+const sidebar = require('./config/sidebarUtil')
+
 module.exports = {
   theme:"antdocs",
   title: "MeiDL",
@@ -26,7 +28,7 @@ module.exports = {
     logo: '/assets/me.jpg',
     smoothScroll: true,
     nav: require("./config/nav"),
-    sidebar: require("./config/sidebar"),
+    sidebar: sidebar.inferSidebars(),
     lastUpdated: "Last Updated",
     // repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
