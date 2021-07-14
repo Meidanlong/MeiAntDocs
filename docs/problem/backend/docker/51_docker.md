@@ -22,4 +22,3 @@ vi /etc/docker/daemon.json
 systemctl daemon-reload
 systemctl restart docker
 ```
-<comment/>

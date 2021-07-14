@@ -33,4 +33,4 @@ const mapStateToProps = (state) => {
 2. 可缩短总的reducer引入的名称
 
 
-<comment/>
+

@@ -57,4 +57,3 @@ const mapStateToProps = (state) => {
 }
 ```
 
-<comment/>

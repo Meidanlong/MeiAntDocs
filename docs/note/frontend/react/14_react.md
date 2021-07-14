@@ -9,4 +9,3 @@
 ### 1. componentDidMount
 * 页面完成挂载，在当前页面该方法只执行一次，适用于获取ajax数据请求
 
-<comment/>

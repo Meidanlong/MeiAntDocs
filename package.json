@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "node ./docs/.vuepress/builds/addMarkDownIfNotExist.js && vuepress build docs",
+    "delcomment": "node ./docs/.vuepress/builds/delMarkdown.js"
   },
   "keywords": [],
   "author": "MeiDL",

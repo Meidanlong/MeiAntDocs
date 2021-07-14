@@ -10,4 +10,3 @@ npm install live-server -g
 ```shell
 live-server
 ```
-<comment/>

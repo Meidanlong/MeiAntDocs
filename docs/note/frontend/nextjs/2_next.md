@@ -36,4 +36,3 @@ yarn add antd
 	    ]
 	}
 	```
-<comment/>

@@ -12,6 +12,4 @@ yum install -y tmux
 tmux
 ```
 
-![pasted-image](images/6_linux/20210317134619.png)
 
-<comment/>

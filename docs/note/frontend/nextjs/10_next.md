@@ -158,4 +158,4 @@ const memoizedCallback = useCallback(
 ```
 * 根据官网文档的介绍我们可理解：在a和b的变量值不变的情况下，memoizedCallback的引用不变。即：useCallback的第一个入参函数会被缓存，从而达到渲染性能优化的目的
 
-<comment/>
+

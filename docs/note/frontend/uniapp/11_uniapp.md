@@ -17,4 +17,3 @@ uni.getSystemInfo({
 
 uni.request(OBJECT)
 
-<comment/>

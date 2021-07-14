@@ -32,4 +32,3 @@ docker start ${container_id}
 
 docker update --restart=always {containerId}
 ```
-<comment/>

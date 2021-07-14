@@ -26,4 +26,3 @@ npm -v
 npm i -g npm@3.3.1
 ```
 
-<comment/>

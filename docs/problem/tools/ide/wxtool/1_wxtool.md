@@ -38,4 +38,3 @@ Mac OS 快捷键	|	Windows 快捷键	|	说明
 界面	|		|	
 ⌘ + ,	|	ctrl + ,	|	打开设置窗口
 
-<comment/>

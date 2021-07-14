@@ -34,4 +34,3 @@ TodoItem.defaultProps={
     test: 'hello world'
 }
 ```
-<comment/>

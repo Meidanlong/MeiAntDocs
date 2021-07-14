@@ -256,4 +256,3 @@ docker run --name nacos-standalone-mysql -e MODE=standalone \
 -e MYSQL_SERVICE_PASSWORD=root123 \
 -p 8848:8848 -d nacos/nacos-server:latest 
 ```
-<comment/>

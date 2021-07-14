@@ -14,4 +14,3 @@ scrapy crawl [projectName]
 
 
 
-<comment/>

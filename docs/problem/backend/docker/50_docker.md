@@ -11,4 +11,3 @@ systemctl enable docker # 开机自动启动docker
 systemctl start docker # 启动docker
 systemctl restart docker # 重启dokcer
 ```
-<comment/>

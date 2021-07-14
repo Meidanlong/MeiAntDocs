@@ -10,4 +10,3 @@ mybatis.mapper-locations=classpath:mappers/push/*.xml, classpath*:/mappers/*.xml
 
 * **表示可以表示任意多级目录
 
-<comment/>
