@@ -8,3 +8,6 @@
 2. 执行 `git branch -a` 可以看到对应分支（已经更新分支信息）
 3. 切换分支 `git checkout release/20200224`
 
+
+
+<comment/>

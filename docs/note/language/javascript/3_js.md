@@ -61,3 +61,6 @@ function getData(url) {
 * 网络请求，如ajax图片加载
 * 定时任务，如setTimeOut
 
+
+
+<comment/>

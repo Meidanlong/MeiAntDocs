@@ -21,3 +21,6 @@
 artigactId : weixin-java-miniapp
 3.5.0
 ```banfa
+
+
+<comment/>
