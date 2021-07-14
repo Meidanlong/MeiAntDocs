@@ -9,7 +9,7 @@
 1. 运行Git Bash窗口，在该窗口导航条（即最上面）右键，选择Options−>Text，找到下面两处
     ```text
     Locale:选择 zh_CN 
-    Charector set:选择 UTF-8
+    Character set:选择 UTF-8
     ```
     ![6-2](https://s2.ax1x.com/2020/02/26/3NK5Af.th.png)
 2. 设置命令
@@ -18,6 +18,7 @@
     git config --global i18n.logoutputencoding utf-8 --注释：该命令表示日志输出时使用utf-8编码集显示
     export LESSCHARSET=utf-8  --注释：设置LESS字符集为utf-8
     ```
+
 
 
 

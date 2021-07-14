@@ -8,9 +8,8 @@ function delComponents(dir) {
   fs.readFile(dir, 'utf-8', (err, content) => {
     if (err) throw err
 
-    fs.writeFile(dir, content.replace(/<comment\/>/g, ''), err => {
+    fs.writeFile(dir, content.replace('<comment/>', ''), err => {
       if (err) throw err
-      // console.log(`del components from ${dir}`)
     })
   })
 }
