@@ -23,14 +23,14 @@
       scriptGitalk.onload = () => {
         const commentConfig = {
           // 开发 OAuth 及 Issues项目地址
-          clientID: 'eea717df8b83a0ca6b7e',
+          /*clientID: 'eea717df8b83a0ca6b7e',
           clientSecret: 'd3832efcc09413cd6a5e1cfda879b5d3ba952242',
-          repo: 'meidanlong.github.io',
+          repo: 'meidanlong.github.io',*/
 
           // 生产 OAuth 及 Issues项目地址
-          /* clientID: '542b00b6278491b39c78',
+          clientID: '542b00b6278491b39c78',
           clientSecret: '4ee16247d322f5033f5f3d17c0d043f4beab1974',
-          repo: 'meidanlong.github.io', */
+          repo: 'meidanlong.github.io',
           owner: 'Meidanlong',
           admin: ['Meidanlong'],
           id: location.pathname,
