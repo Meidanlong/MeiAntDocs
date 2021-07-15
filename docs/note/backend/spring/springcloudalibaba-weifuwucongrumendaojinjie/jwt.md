@@ -15,3 +15,7 @@ JWT 全称 `Json Web Token`，是一个开发标准（RFC 7519），用来在各
     - 示例：aaaa.bbbb.cccc
 2. Signature = Header指定的签名算法(Base64(header).Base64(payload), 密钥)
     - 密钥：HS256("aaaa.bbbb", 密钥)
+
+
+
+<comment/>

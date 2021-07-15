@@ -1,7 +1,7 @@
 module.exports = [
   {
     text: "SPRICA",
-    link: "/sprica/"
+    link: "/sprica/",
   },
   {
     text: "连环call",
@@ -118,8 +118,8 @@ module.exports = [
       {
         text:'操作系统',
         items:[
-          {text:'Linux',link:'problem/systems/linux/'},
-          {text:'Windows',link:'problem/systems/windows/'},
+          {text:'Linux',link:'/problem/systems/linux/'},
+          {text:'Windows',link:'/problem/systems/windows/'},
         ]
       },
       {

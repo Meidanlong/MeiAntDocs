@@ -65,4 +65,8 @@ export default connect(func1,func2)(TodoList);
 
 ### 3. 完善store和reducer内容代码
 
+
+
+
+
 <comment/>

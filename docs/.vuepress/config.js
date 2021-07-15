@@ -1,3 +1,5 @@
+const sidebar = require('./config/sidebarUtil')
+
 module.exports = {
   theme:"antdocs",
   title: "MeiDL",
@@ -26,13 +28,30 @@ module.exports = {
     logo: '/assets/me.jpg',
     smoothScroll: true,
     nav: require("./config/nav"),
-    sidebar: require("./config/sidebar"),
+    sidebar: sidebar.inferSidebars(),
     lastUpdated: "Last Updated",
     // repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
     algolia: {
       applicationID:'9PW9QDHYJ2',
       apiKey: 'b1612e42b87025f9813a09e2a82a9aec'
-    }
+    },
+    ads:{
+      style: 2,
+      speed: 2000,
+      items:[
+        {
+          text: '推荐码：ZR2GGE',
+          image:'https://upload.niaoyun.com/resource/cps_ad/2/250X250_l.jpg',
+          link: 'https://www.niaoyun.com/?u=JPHJ68'
+        },
+        {
+          text: '推荐码：ZR2GGE',
+          image:'https://upload.niaoyun.com/resource/cps_ad/1/250X250_l.jpg',
+          link: 'https://www.niaoyun.com/?u=JPHJ68'
+        },
+      ]
+    },
+    backToTop: true,
   }
 };

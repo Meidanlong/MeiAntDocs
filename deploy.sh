@@ -1,16 +1,18 @@
 #!/usr/bin/env sh
 
-# 更新git
-git pull
-git add .
-git commit -m 'deploy'
-git push
-
 # abort on errors
 set -e
 
-# build
+# 开发时应手动拉取git
+#git pull
+
+# build 生成评论组件
 npm run build
+
+# 提交git
+git add .
+git commit -m 'deploy'
+git push
 
 # navigate into the build output directory
 cd docs/.vuepress/dist

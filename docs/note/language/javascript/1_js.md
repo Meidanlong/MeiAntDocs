@@ -101,4 +101,7 @@ People.prototype === Student.prototype.__proto__ //ture
 ### 3.1 原型链图
 ![1-3](https://s2.ax1x.com/2020/01/27/1nrW40.md.png)
 
+
+
+
 <comment/>
