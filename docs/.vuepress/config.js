@@ -41,12 +41,12 @@ module.exports = {
       speed: 2000,
       items:[
         {
-          text: '推荐码：ZR2GGE',
+          text: '使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
           image:'https://upload.niaoyun.com/resource/cps_ad/2/250X250_l.jpg',
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
         {
-          text: '推荐码：ZR2GGE',
+          text: '使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
           image:'https://upload.niaoyun.com/resource/cps_ad/1/250X250_l.jpg',
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
