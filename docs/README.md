@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /assets/me.jpg
-heroText: 梅丹隆
+heroText: 积跬步 致千里
 tagline: 你能达到什么程度，取决于内心有多渴望
 features:
 - title: 博客分享
