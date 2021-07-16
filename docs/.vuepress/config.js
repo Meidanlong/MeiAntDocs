@@ -2,7 +2,7 @@ const sidebar = require('./config/sidebarUtil')
 
 module.exports = {
   theme:"antdocs",
-  title: "MeiDL",
+  title: "Meiracle",
   description: "你能达到什么程度，取决于内心有多渴望",
   port: 3000,
   base: "/",
@@ -26,7 +26,7 @@ module.exports = {
     lineNumbers: true,
   },
   themeConfig: {
-    logo: '/assets/me.jpg',
+    // logo: '/assets/me.jpg',
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: sidebar.inferSidebars(),
