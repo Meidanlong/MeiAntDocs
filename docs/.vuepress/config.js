@@ -7,7 +7,8 @@ module.exports = {
   port: 3000,
   base: "/",
   head: [
-    ["link",{ rel: "icon",href: "/assets/me.jpg" }],
+    ['meta', {name: 'baidu-site-verification', content: 'code-usB0NBCiZQ'}],
+    ["link", { rel: "icon",href: "/assets/me.jpg" }],
   	// 添加百度统计代码
   	["script", {},
   	  `
