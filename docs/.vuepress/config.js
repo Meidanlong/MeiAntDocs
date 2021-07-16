@@ -4,19 +4,13 @@ module.exports = {
   theme:"antdocs",
   title: "MeiDL",
   description: "你能达到什么程度，取决于内心有多渴望",
-  meta:[
-    {
-      name: 'baidu-site-verification',
-      content: 'code-usB0NBCiZQ'
-    }
-  ],
   port: 3000,
   base: "/",
   head: [
-    // ['meta', {name: 'baidu-site-verification', content: 'code-usB0NBCiZQ'}],
+    ['meta', {name: 'baidu-site-verification', content: 'code-usB0NBCiZQ'}],
     ["link", { rel: "icon",href: "/assets/me.jpg" }],
   	// 添加百度统计代码
-  	["script", {},
+  	/*["script", {},
   	  `
   	    var _hmt = _hmt || [];
   	    (function() {
@@ -26,7 +20,7 @@ module.exports = {
   	      s.parentNode.insertBefore(hm, s);
   	    })();
   	  `
-  	]
+  	]*/
   ],
   markdown: {
     lineNumbers: true,
