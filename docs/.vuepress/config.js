@@ -34,8 +34,9 @@ module.exports = {
     // repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
     algolia: {
-      applicationID:'9PW9QDHYJ2',
-      apiKey: 'b1612e42b87025f9813a09e2a82a9aec'
+      applicationID:'4SWJVAD1M0',
+      apiKey: 'e86bfc888a776e66edc8ac645f0b575b',
+      indexName: 'meiblog'
     },
     ads:{
       style: 2,
