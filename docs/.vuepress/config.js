@@ -34,21 +34,20 @@ module.exports = {
     // repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
     algolia: {
-      applicationID:'4SWJVAD1M0',
-      apiKey: 'e86bfc888a776e66edc8ac645f0b575b',
-      indexName: 'meiblog'
+      applicationID:'9PW9QDHYJ2',
+      apiKey: 'b1612e42b87025f9813a09e2a82a9aec'
     },
     ads:{
       style: 2,
       speed: 2000,
       items:[
         {
-          text: '使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
+          text: '高性能低价小鸟云，使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
           image:'https://upload.niaoyun.com/resource/cps_ad/2/250X250_l.jpg',
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
         {
-          text: '使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
+          text: '高性能低价小鸟云，使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
           image:'https://upload.niaoyun.com/resource/cps_ad/1/250X250_l.jpg',
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
