@@ -37,7 +37,7 @@ Spring MVC之所以必须要配置web.xml,其实最关键的是要配置两个�
 
 ---
 
-```text
+```md
 (1)前端控制器DispatcherServlet（配置即可）
 
 功能:中央处理器,接收请求,自己不做任何处理,而是将请求发送给其他组件进行处理。DispatcherServlet 是整个流程的控制中心。
