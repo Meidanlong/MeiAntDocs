@@ -53,8 +53,9 @@ module.exports = [
           {text:'Spring Boot2.0深度实践之核心技术篇',link:'/note/backend/spring/springboot/shendushijian-hexinjishu/'},
           {text:'Spring源码深度解析（第2版）',link:'/note/backend/spring/springboot/yuanmajiexi/'},
           {text:'SpringCloud框架实现慕课网主页后端开发',link:'/note/backend/spring/springcloud/mukewangkaifa/'},
-          {text:'Spring Cloud Alibaba 大型互联网领域多场景最佳实践',link:'/note/backend/spring/springcloudalibaba/duochangjingshijian/'},
-          {text:'Spring Cloud Alibaba 微服务从入门到进阶',link:'/note/backend/spring/springcloudalibaba/weifuwurumen/'},
+          {text:'Spring Cloud Alibaba 大型互联网领域多场景最佳实践',link:'/note/backend/spring/alibaba/duochangjingshijian/'},
+          {text:'Spring Cloud Alibaba 微服务从入门到进阶',link:'/note/backend/spring/alibaba/weifuwurumen/'},
+          {text:'应用Dubbo框架打造仿猫眼项目',link:'/note/backend/spring/dubbo/maoyan/'},
           {text:'WebFlux响应式编程',link:'/note/backend/spring/webflux/'},
         ]
       },

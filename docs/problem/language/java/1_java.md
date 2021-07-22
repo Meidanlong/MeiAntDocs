@@ -177,7 +177,7 @@ public Integer sum(Optional<Integer> a, Optional<Integer> b) {
 }
 ```
 
-```txt
+```markdown
 输出结果为：
 
 第一个参数值存在:false
@@ -219,7 +219,7 @@ public void testLocalDateTime() {
 }
 ```
 
-```txt
+```markdown
 输出结果为：
 
 当前时间: 2018-06-08T15:19:16.910

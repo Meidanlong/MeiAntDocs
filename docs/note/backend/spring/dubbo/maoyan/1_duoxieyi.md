@@ -27,3 +27,4 @@ Dubbo框架默认支持的阿里的dubbo协议，同时还支持包括rmi、hess
 1. Consumer 会将注册中心中的地址缓存在本地
 2. Dubbo协议用于小数据量大并发的服务调用
 :::
+<comment/>
