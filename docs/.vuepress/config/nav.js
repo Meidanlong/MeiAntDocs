@@ -8,7 +8,7 @@ module.exports = [
     link: "/call/"
   },
   {
-    text: "积累博客",
+    text: "博客专栏",
     items:[
       {
         text:'语言-JAVA',
@@ -27,13 +27,6 @@ module.exports = [
   {
     text: "学习笔记",
     items:[
-      /*{
-        text:'语言-JAVA',
-        items:[
-          {text:'Java',link:'/note/language/java/base/'},
-          {text:'Jvm',link:'/note/language/java/jvm/'},
-        ]
-      },*/
       {
         text:'语言-PYTHON',
         items:[
@@ -106,6 +99,9 @@ module.exports = [
           {text:'Css',link:'/problem/frontend/css/'},
           {text:'React',link:'/problem/frontend/react/'},
           {text:'Vue',link:'/problem/frontend/vue/'},
+          {text:'Vue',link:'/problem/frontend/vue/'},
+          {text:'Node',link:'/problem/frontend/node/'},
+          {text:'Npm',link:'/problem/frontend/npm/'},
         ]
       },
       {
