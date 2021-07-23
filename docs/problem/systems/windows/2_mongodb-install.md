@@ -31,7 +31,7 @@
 
 - 在该目录下创建data和log两个文件夹
 - 完善mongod.cfg信息
-```cfg
+```yaml
 systemLog:
     destination: file
     path: D:\mongodb\data\log\mongod.log
