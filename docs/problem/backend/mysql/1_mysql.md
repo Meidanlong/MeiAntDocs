@@ -1,4 +1,4 @@
-# MySQL中类似ORACLE中decode()函数实现
+# MySQL中类似ORACLE中decode()判断语句实现
 
 ## 一. IF函数
 ### 1. IF语句

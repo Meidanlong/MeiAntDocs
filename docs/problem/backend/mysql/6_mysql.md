@@ -3,7 +3,7 @@
 
 
 ## 解决
-可在docker启动mysql是指定
+可在docker启动mysql时指定
 ```shell
 docker run \
 -p 3306:3306 \
