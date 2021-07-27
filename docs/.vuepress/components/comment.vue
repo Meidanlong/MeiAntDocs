@@ -7,6 +7,7 @@
 <script>
 import 'gitalk/dist/gitalk.css'
 import Gitalk from 'gitalk'
+import md5 from 'blueimp-md5'
 
 export default {
   name: 'comment',
