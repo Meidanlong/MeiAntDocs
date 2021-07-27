@@ -1,4 +1,4 @@
-<template>
+<!--<template>
     <div class="container">
         <div id="gitalk-container"></div>
     </div>
@@ -47,4 +47,30 @@
       };
     },
   };
+</script>-->
+<template>
+  <div class="gitalk-container">
+    <div id="gitalk-container"></div>
+  </div>
+</template>
+
+<script>
+import 'gitalk/dist/gitalk.css'
+import Gitalk from 'gitalk'
+
+export default {
+  name: 'comment',
+  mounted() {
+    const commentConfig = {
+      clientID: '542b00b6278491b39c78',
+      clientSecret: 'c8e83de32f3309549481c78d94d7e4d751b2c059',
+      repo: 'meidanlong.github.io',
+      id: location.pathname,
+      owner: 'Meidanlong',
+      admin: ['Meidanlong']
+    };
+    const gitalk = new Gitalk(commentConfig);
+    gitalk.render('gitalk-container');
+  }
+};
 </script>
