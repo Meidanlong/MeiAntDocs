@@ -63,7 +63,5 @@ function getData(url) {
 
 
 
-
-<
 <ad/>
 <comment/>
