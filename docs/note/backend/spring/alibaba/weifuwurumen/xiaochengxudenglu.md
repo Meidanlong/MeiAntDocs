@@ -25,3 +25,4 @@ artigactId : weixin-java-miniapp
 
 
 <comment/>
+<ad/>

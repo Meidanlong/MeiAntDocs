@@ -118,3 +118,4 @@ knn_clf.score(X_test_standard, y_test)
 
 
 <comment/>
+<ad/>

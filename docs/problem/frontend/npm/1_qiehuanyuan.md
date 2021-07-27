@@ -33,3 +33,4 @@ nrm del <registry>
 nrm test
 ```
 <comment/>
+<ad/>

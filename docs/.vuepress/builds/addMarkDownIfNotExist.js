@@ -19,6 +19,14 @@ function writeComponents(dir) {
                     // console.log(`add components to ${dir}`)
                 })
             }
+            if(content.split('<ad/>').length > 1){
+                // 说明已包含广告组件
+            }else{
+                fs.appendFile(dir, `\n<ad/>`, err => {
+                    if (err) throw err
+                    // console.log(`add components to ${dir}`)
+                })
+            }
         })
 
     }

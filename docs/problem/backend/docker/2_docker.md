@@ -32,12 +32,12 @@ docker run -itd --name mysql-model -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 m
 ```
 
 ### 创建新数据库
-```mysql
+```sql
 create database nacos;
 ```
 
 ### 初始化表
-```mysql
+```sql
 # use nacos;
 
 /******************************************/
@@ -260,3 +260,4 @@ docker run --name nacos-standalone-mysql -e MODE=standalone \
 
 
 <comment/>
+<ad/>

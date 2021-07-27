@@ -38,3 +38,4 @@ const mapStateToProps = (state) => {
 
 
 <comment/>
+<ad/>

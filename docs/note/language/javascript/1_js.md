@@ -105,3 +105,4 @@ People.prototype === Student.prototype.__proto__ //ture
 
 
 <comment/>
+<ad/>

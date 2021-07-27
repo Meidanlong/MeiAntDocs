@@ -37,7 +37,7 @@ module.exports = {
       applicationID:'9PW9QDHYJ2',
       apiKey: 'b1612e42b87025f9813a09e2a82a9aec'
     },
-    ads:{
+    /*ads:{
       style: 2,
       speed: 2000,
       items:[
@@ -52,7 +52,7 @@ module.exports = {
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
       ]
-    },
+    },*/
     backToTop: true,
   }
 };

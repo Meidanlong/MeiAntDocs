@@ -18,3 +18,4 @@ scrapy crawl [projectName]
 
 
 <comment/>
+<ad/>
