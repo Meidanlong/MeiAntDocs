@@ -11,14 +11,6 @@ function writeComponents(dir) {
         fs.readFile(dir, 'utf-8', (err, content) => {
             if (err) throw err
 
-            if(content.split('<comment/>').length > 1){
-                // 说明已包含评论组件
-            }else{
-                fs.appendFile(dir, `\n<comment/>`, err => {
-                    if (err) throw err
-                    // console.log(`add components to ${dir}`)
-                })
-            }
             if(content.split('<ad/>').length > 1){
                 // 说明已包含广告组件
             }else{
@@ -27,6 +19,16 @@ function writeComponents(dir) {
                     // console.log(`add components to ${dir}`)
                 })
             }
+
+            if(content.split('<comment/>').length > 1){
+                // 说明已包含评论组件
+            }else{
+                fs.appendFile(dir, `\n<comment/>`, err => {
+                    if (err) throw err
+                    // console.log(`add components to ${dir}`)
+                })
+            }
+
         })
 
     }

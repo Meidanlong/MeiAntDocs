@@ -29,7 +29,7 @@
 
           // 生产 OAuth 及 Issues项目地址
           clientID: '542b00b6278491b39c78',
-          clientSecret: '7afbe1cf895d87afe1f8ec67797942a19babeca5',
+          clientSecret: 'c8e83de32f3309549481c78d94d7e4d751b2c059',
           repo: 'meidanlong.github.io',
           owner: 'Meidanlong',
           admin: ['Meidanlong'],

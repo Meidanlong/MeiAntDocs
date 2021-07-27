@@ -108,7 +108,5 @@ predict_y = votes.most_common(1)[0][0]
 
 
 
-
-
-<comment/>
 <ad/>
+<comment/>

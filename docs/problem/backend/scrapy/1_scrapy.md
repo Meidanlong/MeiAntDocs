@@ -40,5 +40,9 @@ def parse_detail(self,response):
 
 
 
-<comment/>
+
+
+
+
 <ad/>
+<comment/>

@@ -12,6 +12,5 @@ mybatis.mapper-locations=classpath:mappers/push/*.xml, classpath*:/mappers/*.xml
 
 
 
-
-<comment/>
 <ad/>
+<comment/>

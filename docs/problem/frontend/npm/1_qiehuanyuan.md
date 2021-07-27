@@ -32,5 +32,7 @@ nrm del <registry>
 ```shell
 nrm test
 ```
-<comment/>
+
+
 <ad/>
+<comment/>

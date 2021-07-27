@@ -21,5 +21,7 @@ gitalk.render('gitalk-container')
 
 
 
-<comment/>
+
+
 <ad/>
+<comment/>

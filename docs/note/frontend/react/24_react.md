@@ -60,5 +60,6 @@ const mapStateToProps = (state) => {
 
 
 
-<comment/>
+<
 <ad/>
+<comment/>

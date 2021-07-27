@@ -99,7 +99,6 @@ module.exports = [
           {text:'Css',link:'/problem/frontend/css/'},
           {text:'React',link:'/problem/frontend/react/'},
           {text:'Vue',link:'/problem/frontend/vue/'},
-          {text:'Vue',link:'/problem/frontend/vue/'},
           {text:'Node',link:'/problem/frontend/node/'},
           {text:'Npm',link:'/problem/frontend/npm/'},
         ]

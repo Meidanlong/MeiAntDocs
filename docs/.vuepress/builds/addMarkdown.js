@@ -10,9 +10,10 @@ function writeComponents(dir) {
   if (namearray.length === 1) {
     // 开头添加推广组件
     // fs.writeFile(dir,`<ad/>`,err => {if (err) throw err})
+    // 结尾追加广告组件
+    fs.appendFile(dir, `<ad/>`, err => {if (err) throw err})
     // 结尾追加评论组件
     fs.appendFile(dir, `<comment/>`, err => {if (err) throw err})
-    fs.appendFile(dir, `<ad/>`, err => {if (err) throw err})
     // console.log(`add components to ${dir}`)
   }
 }
