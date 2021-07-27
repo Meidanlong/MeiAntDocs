@@ -21,7 +21,7 @@ export default {
       clientID: '542b00b6278491b39c78',
       clientSecret: 'c8e83de32f3309549481c78d94d7e4d751b2c059',
       repo: 'meidanlong.github.io',
-      id: location.pathname,
+      id: md5(location.pathname),
       owner: 'Meidanlong',
       admin: ['Meidanlong']
     };
