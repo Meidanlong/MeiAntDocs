@@ -36,7 +36,7 @@
           id: location.pathname,
           distractionFreeMode: false,
           language: 'zh-CN',
-          proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'
+          // proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'
 
         };
         // console.log(location.pathname)
