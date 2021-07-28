@@ -45,6 +45,7 @@ module.exports = [
           {text:'SpringCloud框架实现慕课网主页后端开发',link:'/note/backend/spring/springboot/dianshangyanjin-jiqun/'},
           {text:'Spring Boot2.0深度实践之核心技术篇',link:'/note/backend/spring/springboot/shendushijian-hexinjishu/'},
           {text:'Spring源码深度解析（第2版）',link:'/note/backend/spring/springboot/yuanmajiexi/'},
+          {text:'全方位深入解析最新版SpringBoot源码',link:'/note/backend/spring/springboot/quanfangweishenru/'},
           {text:'SpringCloud框架实现慕课网主页后端开发',link:'/note/backend/spring/springcloud/mukewangkaifa/'},
           {text:'Spring Cloud Alibaba 大型互联网领域多场景最佳实践',link:'/note/backend/spring/alibaba/duochangjingshijian/'},
           {text:'Spring Cloud Alibaba 微服务从入门到进阶',link:'/note/backend/spring/alibaba/weifuwurumen/'},
