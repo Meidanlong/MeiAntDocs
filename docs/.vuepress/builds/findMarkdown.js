@@ -18,6 +18,15 @@ function findMarkdown(dir, callback) {
           }
         })
       }
+
+      // 百度资源收录
+      /*if(innerDir.split('.md').length > 1){
+        let url = innerDir
+            .replace('./docs', 'https://www.meidanlong.com')
+            .replace('.md', '.html')
+        console.log(url)
+      }*/
+
     })
   })
 }
