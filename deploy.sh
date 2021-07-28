@@ -11,8 +11,8 @@ npm run build
 
 # 提交git
 git add .
-git commit -m 'deploy'
 git gc  --prune=now
+git commit -m 'deploy'
 git push
 
 # navigate into the build output directory
@@ -27,8 +27,8 @@ echo 'www.meidanlong.com' > CNAME
 echo "发布到静态页面托管网站"
 git init
 git add .
-git commit -m 'deploy'
 git gc  --prune=now
+git commit -m 'deploy'
 
 # gitee
 git push -f "git@gitee.com:meidanlong/blog.git" master:gh-pages
