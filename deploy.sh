@@ -11,7 +11,6 @@ npm run build
 
 # 提交git
 git add .
-git gc  --prune=now
 git commit -m 'deploy'
 git push
 
@@ -27,7 +26,6 @@ echo 'www.meidanlong.com' > CNAME
 echo "发布到静态页面托管网站"
 git init
 git add .
-git gc  --prune=now
 git commit -m 'deploy'
 
 # gitee
