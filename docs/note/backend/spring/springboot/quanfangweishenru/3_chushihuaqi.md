@@ -19,7 +19,7 @@
 3. 文件内容必须是kv形式，即properties类型
 4. key是全限定名（抽象类|接口）、value是实现，多个实现用","分隔
 
-### 1、loadFactories流程
+### loadFactories流程
 1. 查找缓存是否存在
 2. 读取指定资源文件
 3. 构建properties对象
@@ -29,6 +29,29 @@
 7. 依次实力话结果对象
 8. 对结果对象进行排序
 9. 返回结果
+
+## 四、ApplicationContextInitializer
+1. 上下文刷新即refresh方法前调用
+2. 用来编码设置一些属性变量，通常用在web环境中
+3. 可以通过Order接口进行排序
+
+### 调用流程
+1. run()框架启动
+2. prepareContext()上下文准备之前
+3. applyInitializers()调用系统初始化器
+4. 遍历调用初始化器
+
+### 实现原理
+1. 定义在spring.factories文件中被SpringFactoriesLoader发现注册
+2. SpringApplication初始化完毕后手动添加
+3. 定义成环境变量被DelegatingApplicationContextInitializer（Order = 0）发现注册
+
+## 五、问题
+### 1、介绍下SpringFactoriesLoader？
+### 2、SpringFactoriesLoader如何加载工厂类？
+### 3、系统初始化器的作用？
+
+
 
 
 
