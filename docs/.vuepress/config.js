@@ -30,7 +30,7 @@ module.exports = {
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: sidebar.inferSidebars(),
-    sidebarDepth: 3,
+    sidebarDepth: 4,
     lastUpdated: "Last Updated",
     // repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
