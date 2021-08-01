@@ -119,6 +119,16 @@ public class HelloService
 
 #### finishBeanFactoryInitialization
 1. 初始化所有剩下的单实例bean
+##### BeanDefinition
+1. 一个对象在Spring中描述，RootBeanDefinition是其常见实现
+2. 通过操作BeanDefinition来完成bean实例化和属性注入
+   
+[![WzSigU.md.png](https://z3.ax1x.com/2021/08/01/WzSigU.md.png)](https://imgtu.com/i/WzSigU)
+
+##### 自定义创建bean
+[![WzGFDe.md.png](https://z3.ax1x.com/2021/08/01/WzGFDe.md.png)](https://imgtu.com/i/WzGFDe)
+
+[![WzGoad.md.jpg](https://z3.ax1x.com/2021/08/01/WzGoad.md.jpg)](https://imgtu.com/i/WzGoad)
 
 #### finishRefresh
 1. 初始化生命周期处理器
