@@ -69,25 +69,25 @@ public class HelloService
 ### 2、流程
 [![WvyDEV.md.png](https://z3.ax1x.com/2021/07/31/WvyDEV.md.png)](https://imgtu.com/i/WvyDEV)
 
-#### prepareRefresh
+#### 1. prepareRefresh
 1. 容器状态设置
 2. 初始化属性设置
 3. 检查必备属性是否存在
 
-#### obtainFreshBeanFactory
+#### 2. obtainFreshBeanFactory
 1. 设置beanFactory序列化id
 2. 后去beanFactory
 
-#### prepareBeanFactory
+#### 3. prepareBeanFactory
 1. 设置beanFactory一些属性
 2. 添加后置处理器
 3. 设置忽略的自动装配接口
 4. 注册一些组件
 
-#### postProcessBeanFactory
+#### 4. postProcessBeanFactory
 1. 子类重写以在BeanFactory完成创建后做进一步设置
 
-#### invokeBeanFactoryPostProcessors
+#### 5. invokeBeanFactoryPostProcessors
 1. 调用BeanDefinitionRegistryPostProcessor实现向容器内添加bean定义
 2. 调用BeanFactoryPostProcessor实现向容器内bean的定义添加属性
 
@@ -99,44 +99,44 @@ public class HelloService
 
 [![Wx6IBR.md.png](https://z3.ax1x.com/2021/08/01/Wx6IBR.md.png)](https://imgtu.com/i/Wx6IBR)
 
-#### registerBeanPostProcessor
+#### 6. registerBeanPostProcessor
 1. 找到BeanPostProcessor的实现
 2. 排序后注册进容器内
 
-#### initMessageSource
+#### 7. initMessageSource
 1. 初始化国际化相关属性
 
-#### initApplicationEventMulticaster
+#### 8. initApplicationEventMulticaster
 1. 初始化事件广播器，注册到容器中
 
-#### onRefresh
+#### 9. onRefresh
 1. 空实现
 2. 创建web容器
 
-#### registerListener
+#### 10. registerListener
 1. 添加容器内事件监听器至事件广播器中
 2. 派发早期事件
 
-#### finishBeanFactoryInitialization
+#### 11. finishBeanFactoryInitialization
 1. 初始化所有剩下的单实例bean
-##### BeanDefinition
+##### 11.1 BeanDefinition
 1. 一个对象在Spring中描述，RootBeanDefinition是其常见实现
 2. 通过操作BeanDefinition来完成bean实例化和属性注入
    
 [![WzSigU.md.png](https://z3.ax1x.com/2021/08/01/WzSigU.md.png)](https://imgtu.com/i/WzSigU)
 
-##### 自定义创建bean
+##### 11.2 自定义创建bean
 [![WzGFDe.md.png](https://z3.ax1x.com/2021/08/01/WzGFDe.md.png)](https://imgtu.com/i/WzGFDe)
 
 [![WzGoad.md.jpg](https://z3.ax1x.com/2021/08/01/WzGoad.md.jpg)](https://imgtu.com/i/WzGoad)
 
-#### finishRefresh
+#### 12. finishRefresh
 1. 初始化生命周期处理器
 2. 调用生命周期处理器onRefresh方法
 3. 发布ContextRefreshedEvent事件
 4. JMX相关处理
 
-#### resetCommonCaches
+#### 13. resetCommonCaches
 1. 清除过程中产生的缓存
 
 
