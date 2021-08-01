@@ -87,6 +87,47 @@ public class HelloService
 #### postProcessBeanFactory
 1. 子类重写以在BeanFactory完成创建后做进一步设置
 
+#### invokeBeanFactoryPostProcessors
+1. 调用BeanDefinitionRegistryPostProcessor实现向容器内添加bean定义
+2. 调用BeanFactoryPostProcessor实现向容器内bean的定义添加属性
+
+[![WxcKU0.md.png](https://z3.ax1x.com/2021/08/01/WxcKU0.md.png)](https://imgtu.com/i/WxcKU0)
+
+[![Wx6s7q.md.png](https://z3.ax1x.com/2021/08/01/Wx6s7q.md.png)](https://imgtu.com/i/Wx6s7q)
+
+[![Wx6W3F.md.png](https://z3.ax1x.com/2021/08/01/Wx6W3F.md.png)](https://imgtu.com/i/Wx6W3F)
+
+[![Wx6IBR.md.png](https://z3.ax1x.com/2021/08/01/Wx6IBR.md.png)](https://imgtu.com/i/Wx6IBR)
+
+#### registerBeanPostProcessor
+1. 找到BeanPostProcessor的实现
+2. 排序后注册进容器内
+
+#### initMessageSource
+1. 初始化国际化相关属性
+
+#### initApplicationEventMulticaster
+1. 初始化事件广播器，注册到容器中
+
+#### onRefresh
+1. 空实现
+2. 创建web容器
+
+#### registerListener
+1. 添加容器内事件监听器至事件广播器中
+2. 派发早期事件
+
+#### finishBeanFactoryInitialization
+1. 初始化所有剩下的单实例bean
+
+#### finishRefresh
+1. 初始化生命周期处理器
+2. 调用生命周期处理器onRefresh方法
+3. 发布ContextRefreshedEvent事件
+4. JMX相关处理
+
+#### resetCommonCaches
+1. 清除过程中产生的缓存
 
 
 
