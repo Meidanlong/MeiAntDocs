@@ -21,8 +21,7 @@ print ("序号：%s 值：%s" % (i + 1, val))
 
 **结果：**
 
-
-![1-1](https://s2.ax1x.com/2020/01/21/1kCvrj.png)
+[![fpBwpF.png](https://z3.ax1x.com/2021/08/02/fpBwpF.png)](https://imgtu.com/i/fpBwpF)
 
 
 
