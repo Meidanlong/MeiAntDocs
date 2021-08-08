@@ -6,6 +6,36 @@
 
 ## 二、作用
 1. 在运行时判断任意一个对象所属的类
+2. 在运行时获取类的对象
+3. 在运行时访问java对象的属性、方法、构造方法等
+
+## 三、java.lang.reflect类库的主要类
+1. Field：类中成员变量
+2. Method：类中方法
+3. Constructor：类的构造方法
+4. Array：该类提供了动态创建数组和访问数组元素的静态方法
+
+## 四、Class类特点
+1. Class类也是类的一种，class则是关键字
+2. Class类只有一个私有的构造函数，只有JVM能够创建Class类的实例
+3. JVM中只有唯一一个和类相应的Class对象来描述其类型信息
+
+## 五、反射获取对象的三种方式
+### 1、对象.getClass()
+```java
+obj.geClass();
+```
+### 2、类.class
+```java
+Clz.class;
+```
+### 3、Class.forName("")
+
+## 六、使用
+//todo
+
+
+
 
 <ad/>
 <comment/>
