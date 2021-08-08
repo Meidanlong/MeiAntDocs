@@ -144,6 +144,7 @@ module.exports = [
           {text:'Chrome',link:'/problem/tools/chrome/'},
           {text:'Crt',link:'/problem/tools/crt/'},
           {text:'Git',link:'/problem/tools/git/'},
+          {text:'HomeBrew',link:'/problem/tools/homebrew/'},
         ]
       },
     ]
