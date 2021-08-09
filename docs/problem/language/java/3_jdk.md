@@ -7,7 +7,7 @@
 ```shell
 tar -zxvf jdk-11.0.12_osx-x64_bin.tar.gz
 
-mv jdk-11.0.12_osx-x64_bin.jdk 11
+mv jdk-11.0.12.jdk 11
 ```
 
 ## 三、配置环境变量
