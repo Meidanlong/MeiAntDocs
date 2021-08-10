@@ -33,7 +33,7 @@
 1、 创建对象
 2、 提取标记对象
     1、 指定范围，获取范围内的所有类
-        1、 获取到类的加载器（目的：获取项目发布的实际路径）
+        1、 获取到`类加载器`（目的：获取项目发布的实际路径）
         2、 通过类加载器获取到加载的资源信息
         3、 依据不同的资源类型，采用不同的方式获取资源的集合
     2、 遍历所有类，获取被注解标记的类并加载进容器里
@@ -42,6 +42,20 @@
 
 #### 类加载器 ClassLoader
 [![fG7VJA.md.png](https://z3.ax1x.com/2021/08/10/fG7VJA.md.png)](https://imgtu.com/i/fG7VJA)
+
+1、 根据一个指定的类的名称，找到或者生成其对应的字节码
+2、 加载java应用所需资源
+
+```java
+Thread.currentThread().getContextClassLoader();
+```
+
+#### URL
+统一资源定位符：某个资源的唯一地址
+
+1、 通过获取java.net.URL实例获取协议名、资源名路径等信息
+    [![fJ1Fv4.md.png](https://z3.ax1x.com/2021/08/10/fJ1Fv4.md.png)](https://imgtu.com/i/fJ1Fv4)
+
 
 <ad/>
 <comment/>
