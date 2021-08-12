@@ -29,7 +29,7 @@
 3. 注入对象
 4. 提供通用工具类
 
-### IOC容器的实现
+### 1、IOC容器的实现
 1. 创建对象
 2. 提取标记对象
     1. 指定范围，获取范围内的所有类
@@ -40,6 +40,7 @@
 3. 实现容器
 4. 依赖注入
 
+### 2、涉及知识点
 #### 类加载器 ClassLoader
 [![fG7VJA.md.png](https://z3.ax1x.com/2021/08/10/fG7VJA.md.png)](https://imgtu.com/i/fG7VJA)
 
@@ -55,6 +56,29 @@ Thread.currentThread().getContextClassLoader();
 
 1. 通过获取java.net.URL实例获取协议名、资源名路径等信息
     [![fJ1Fv4.md.png](https://z3.ax1x.com/2021/08/10/fJ1Fv4.md.png)](https://imgtu.com/i/fJ1Fv4)
+
+
+### 3、实现容器
+容器的组成部分
+1. 保存Class对象及其实例的载体 -> ConcurrentHashMap
+2. 容器的加载
+    1. 配置的管理与获取
+    2. 获取指定范围内的Class对象
+    3. 依据配置提取Class对象，连同实例一并存入容器
+3. 容器的操作方式
+    1. 增加、删除操作
+    2. 根据Class获取对应实例
+    3. 获取所有的Class和实例
+    4. 通过注解来获取被注解标注的Class
+    5. 通过超类获取对应的子类Class
+    6. 获取容器载体保存的Class的数量
+
+#### 作用域 Scope
+1. singleton
+2. prototype
+3. request
+4. session
+5. globalsession
 
 
 <ad/>
