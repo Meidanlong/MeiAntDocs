@@ -80,6 +80,23 @@ Thread.currentThread().getContextClassLoader();
 4. session
 5. globalsession
 
+### 4、容器的依赖注入
+#### 一、实现思路
+1、 定义相关的注解标签
+2、 实现创建被注解标记的成员变量实例，并将其注入到成员变量里
+    1、 遍历Bean容器中所有的Class对象
+    2、 遍历Class对象的所有成员变量
+    3、 找出被Autowired标记的成员变量
+    4、 获取这些成员变量的类型
+    5、 获取这些成员变量的类型在容器里对应的实例
+    6、 通过反射将对应的成员变量实例注入到成员变量所在类的实例里
+    7、 解决同一个类型有多种实现类的情况
+3、 依赖注入的使用
+
+---
+
+[![ffWspj.md.png](https://z3.ax1x.com/2021/08/16/ffWspj.md.png)](https://imgtu.com/i/ffWspj)
+
 
 <ad/>
 <comment/>
