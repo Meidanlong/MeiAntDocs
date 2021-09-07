@@ -53,6 +53,8 @@ FactoryBean:
 1. 以列表的形式提供Bean的相关信息
 2. 批量列出工厂生产的实例信息
 
+> 实现BeanDefinitionRegistry接口，可注册BeanDefinition（registerBeanDefinition()）
+
 #### 2.2、HierarchicalBeanFactory
 1. 使得容器具备层级的关系
 
@@ -84,7 +86,33 @@ FactoryBean:
 3. 国际化配置
 
 
+## 三、Resource、ResourceLoader
 
+### 1、Resource
+1、 定义了资源的基本操作
+
+### 1.2、EncodedResource
+
+### 1.3、ClassPathResource
+访问 WEB-INF/classes
+
+### 1.4、FileSystemResource
+
+### 2、ResourceLoader
+实现不同的Resource加载策略，按需返回特定类型的Resource
+
+1、 getResource()：根据地址返回资源实例 
+2、 getClassLoader()：获取ClassLoader
+
+
+## 四、BeanDefinitionReader
+- 读取BeanDefinition
+- BeanDefinitionRegistry -> 将BeanDefinition注册到容器中
+- 提供多种类型的loadBeanDefinition方法
+
+### 1、BeanDefinitionRegistry
+- registerBeanDefinition -> 向注册表中注册bean实例 -> beanDefinitionMap(ConcurrentHashMap)
+- BeanDefinitionRegistry -> abstractBeanDefinition
 
 
 
