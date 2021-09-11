@@ -53,6 +53,8 @@ FactoryBean:
 1. 以列表的形式提供Bean的相关信息
 2. 批量列出工厂生产的实例信息
 
+> 实现BeanDefinitionRegistry接口，可注册BeanDefinition（registerBeanDefinition()）
+
 #### 2.2、HierarchicalBeanFactory
 1. 使得容器具备层级的关系
 
@@ -83,8 +85,6 @@ FactoryBean:
 2. BeanFactoryPostProcessor和BeanPostProcessor的注册和激活
 3. 国际化配置
 4. web容器构造
-
-
 
 
 
