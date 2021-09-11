@@ -82,6 +82,7 @@ FactoryBean:
 1. 容器初始化、配置解析
 2. BeanFactoryPostProcessor和BeanPostProcessor的注册和激活
 3. 国际化配置
+4. web容器构造
 
 
 
