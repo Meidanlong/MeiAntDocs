@@ -4,7 +4,7 @@
 ## 一、Resource、ResourceLoader
 
 ### 1、Resource
-1、 定义了资源的基本操作
+1. 定义了资源的基本操作
 
 ### 1.2、EncodedResource
 
@@ -16,8 +16,8 @@
 ### 2、ResourceLoader
 实现不同的Resource加载策略，按需返回特定类型的Resource
 
-1、 getResource()：根据地址返回资源实例
-2、 getClassLoader()：获取ClassLoader
+1. getResource()：根据地址返回资源实例
+2. getClassLoader()：获取ClassLoader
 
 
 ## 四、BeanDefinitionReader
