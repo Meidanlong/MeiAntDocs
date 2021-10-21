@@ -127,6 +127,7 @@ module.exports = [
         items:[
           {text:'Linux',link:'/problem/systems/linux/'},
           {text:'Windows',link:'/problem/systems/windows/'},
+          {text:'MacOS',link:'/problem/systems/mac/'},
         ]
       },
       {
