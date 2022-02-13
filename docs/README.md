@@ -11,7 +11,7 @@ features:
 - title: 记录问题
   details: 记录常见问题，避免二次犯错。
 
-footer: Based on AntDocs, Created by Meiracle with ❤️
 ---
 
+[comment]: <> (footer: Based on AntDocs, Created by Meiracle with ❤️)
 <home/>

@@ -1,9 +1,12 @@
 module.exports = [
   {
-    text: "SPRICA",
-    link: "/sprica/",
+    text: "Rical",
+    items:[
+      {text:'快速开始',link:'/project/rical/start/'},
+      {text:'博客',link:'/project/rical/blog/'},
+    ]
   },
-  {
+  /*{
     text: "连环call",
     link: "/call/"
   },
@@ -149,5 +152,5 @@ module.exports = [
         ]
       },
     ]
-  },
+  },*/
 ];
