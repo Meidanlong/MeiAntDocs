@@ -6,7 +6,7 @@ module.exports = [
       {text:'博客',link:'/project/rical/blog/'},
     ]
   },
-  /*{
+  {
     text: "连环call",
     link: "/call/"
   },
@@ -152,5 +152,5 @@ module.exports = [
         ]
       },
     ]
-  },*/
+  },
 ];

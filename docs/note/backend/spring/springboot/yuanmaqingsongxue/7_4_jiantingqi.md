@@ -8,3 +8,5 @@
 1、 事件源（Event Source）
 2、 事件监听器（Event Listener）
 3、 事件对象（Event Object）
+<ad/>
+<comment/>
