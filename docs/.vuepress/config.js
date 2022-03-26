@@ -26,14 +26,14 @@ module.exports = {
     lineNumbers: true,
   },
   themeConfig: {
-    // logo: '/assets/me.jpg',
+    logo: '/assets/me.jpg',
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: sidebar.inferSidebars(),
     sidebarDepth: 4,
     lastUpdated: "Last Updated",
     // repo: "https://github.com/zpfz/vuepress-creator",
-    editLinks: false,
+    editLinks: true,
     algolia: {
       applicationID:'9PW9QDHYJ2',
       apiKey: 'b1612e42b87025f9813a09e2a82a9aec'

@@ -1,5 +1,17 @@
 module.exports = [
   {
+    text: "基础",
+    items:[
+      {
+        text:'语言',
+        items:[
+          {text:'Java',link:'/base/language/java/'},
+        ]
+      },
+    ]
+  },
+  // Ori
+  {
     text: "Rical",
     items:[
       {text:'快速开始',link:'/project/rical/start/'},

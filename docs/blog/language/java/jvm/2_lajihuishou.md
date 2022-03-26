@@ -171,7 +171,7 @@
             - CMSFUllGCsBeforeCompaction：在进行几次full GC后就进行一次内存碎片的整理，默认为0
     - 适用于希望系统停顿时间短，响应速度快的场景，比如各种服务器应用程序
 8. G1
-    - Garbge First
+    - Garbage First
     - 面向服务器端应用的垃圾收集器
     - G1把Java堆划分成了若干个大小相等的区域，每一个区域叫做region
     - region的大小可以通过 -XX:G1HeapRegionSize 来指定，取值范围是1～32MB，且必须为2的整数幂
@@ -232,10 +232,6 @@
 >Parallel Old（并行）：采用标记-整理算法</br>
 >CMS：采用标记-清除算法</br>
 >G1：采用复制算法
-
-
-
-
 
 
 <ad/>
