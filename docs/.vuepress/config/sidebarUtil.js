@@ -21,8 +21,8 @@ exports.inferSidebars = () => {
                 // console.log("next is "+ next)
                 prev = prev == 'README.md' ? '0_README.md' : prev
                 next = next == 'README.md' ? '0_README.md' : next
-                let prev_nums = prev.split("_")
-                let next_nums = next.split("_")
+                let prev_nums = prev.split(".md")[0].split("_")
+                let next_nums = next.split(".md")[0].split("_")
                 let size = prev_nums.length >= next_nums.length ? next_nums.length : prev_nums.length
                 if(size > 0){
                     // 例如：1_a.md,1_b.md,2_1_c.md,2_2_c.md

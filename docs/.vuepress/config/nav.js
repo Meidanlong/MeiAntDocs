@@ -6,6 +6,8 @@ module.exports = [
         text:'语言',
         items:[
           {text:'Java',link:'/base/language/java/'},
+          {text:'Python',link:'/base/language/python/'},
+          {text:'Javascript',link:'/base/language/javascript/'},
         ]
       },
     ]

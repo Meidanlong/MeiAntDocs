@@ -40,16 +40,16 @@ module.exports = {
     },
     /*ads:{
       style: 2,
-      speed: 2000,
+      speed: 5000,
       items:[
         {
           text: '高性能低价小鸟云，使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
-          image:'https://upload.niaoyun.com/resource/cps_ad/2/250X250_l.jpg',
+          image:'https://upload.niaoyun.com/resource/cps_ad/1/300X100_l.jpg',
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
         {
           text: '高性能低价小鸟云，使用我的推荐码：ZR2GGE，购买云服务器和云主机可在官网活动上再打85折，非常给力！！！新同学点击图片直达~',
-          image:'https://upload.niaoyun.com/resource/cps_ad/1/250X250_l.jpg',
+          image:'https://upload.niaoyun.com/resource/cps_ad/2/300X100_l.jpg',
           link: 'https://www.niaoyun.com/?u=JPHJ68'
         },
       ]
