@@ -1,6 +1,6 @@
 # 第四章：循环语句
 
-## 一. while
+## 一、while
 1. 代码结构
 ```python
 CONDITION = true
@@ -19,7 +19,7 @@ else :
     print('END')
 ```
 
-## 二. for
+## 二、for
 1. 代码结构
 ```python
 for target_list in expression_list :
@@ -68,10 +68,35 @@ print(b)
 > 1357
     
 ```
-## 三. 跳出循环
+## 三、跳出循环
 1. break -> 强行终止当前循环，并不执行else后面语句
 2. continue -> 跳出当前循环，继续之后的循环
 
+
+## 四、遍历列表里面序号和值的方法
+
+```python
+list = ['html', 'js', 'css', 'python']
+
+# 方法1
+for i in list:
+print ("序号：%s 值：%s" % (list.index(i) + 1, i))
+
+# 方法2
+for i in range(len(list)):
+print ("序号：%s 值：%s" % (i + 1, list[i]))
+
+# 方法3
+for i, val in enumerate(list):
+print ("序号：%s 值：%s" % (i + 1, val))
+# enumerate()函数的第二个参数只是改变了序号的起始值
+for i, val in enumerate(list, 2):
+print ("序号：%s 值：%s" % (i + 1, val))
+```
+
+**结果：**
+
+![结果](https://z3.ax1x.com/2021/08/02/fpBwpF.png)
 
 
 

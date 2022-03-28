@@ -10,7 +10,7 @@
 
 ## 三、参考
 
-
+- [《Gradle常用命令》](https://www.jianshu.com/p/ed133d026a97)
 
 ## 四、与我联系
 

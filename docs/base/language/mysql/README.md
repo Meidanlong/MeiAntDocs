@@ -1,16 +1,17 @@
-# Maven
+# Mysql
 
 ## 一、简介
-梳理Maven知识点
+梳理Mysql知识点
 
 ## 二、目录结构
 
-- Maven
+- Mysql
     - [Q&A](99_qa.md)
 
 ## 三、参考
 
-
+- [《MySQL if语句》](https://www.yiibai.com/mysql/if-statement.html)
+* [《MySQL CASE语句》](https://www.yiibai.com/mysql/case-statement.html)
 
 ## 四、与我联系
 

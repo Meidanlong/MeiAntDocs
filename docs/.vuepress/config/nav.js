@@ -8,6 +8,7 @@ module.exports = [
           {text:'Java',link:'/base/language/java/'},
           {text:'Python',link:'/base/language/python/'},
           {text:'Javascript',link:'/base/language/javascript/'},
+          {text:'Mysql',link:'/base/language/mysql/'},
         ]
       },
     ]
