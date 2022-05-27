@@ -14,6 +14,9 @@ git add .
 git commit -m 'deploy'
 git push
 
+# gitee
+git push -f "git@gitee.com:meidanlong/blog.git" master
+
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
@@ -33,4 +36,4 @@ git push -f "git@gitee.com:meidanlong/blog.git" master:gh-pages
 
 
 # github
-git push -f "git@github.com:Meidanlong/meidanlong.github.io.git" master
+git push -f "git@github.com:Meidanlong/meidanlong.github.io.git" master:gh-pages
